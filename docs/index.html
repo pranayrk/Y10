@@ -4,20 +4,58 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Y10 - Physics - NISA</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/white.css">
+		<link rel="stylesheet" href="css/reveal_extra.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<script src="plugin/math/math.js"></script>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h1>Physics - Year 10</h1>
+					<h6>Chapter 2: Forces and Motion</h6>
+					<h6 id="datetime"></h6>
+					<img src="images/nisa_logo.png"></img>
+					<h6>Naypyitaw International Science Academy</h6>
+				</section>
+				<section>
+					<h3>2.1 MOTION: Speed, velocity and acceleration</h3>
+					<img src="images/speed_dictionary.png" height="300"></img>
+
+					<p>Cambridge English Dictionary: <b>Speed</b></p>
+				</section>
+				<section data-markdown>
+					### 2.1 MOTION: *Speed, velocity and acceleration*
+
+					![speed](images/flash_race.webp)
+
+					Which one is faster?
+				</section>
+				<section>
+					<h3>2.1 MOTION: Speed, velocity and acceleration</h3>
+					<img src="images/galileo.webp" height="200"</img>
+					<p><b>Galileo Galilei, 1564 – 1642</b></p>
+					<blockquote>"... is usually credited with being the first to measure speed by considering the distance covered and the time it takes."</blockquote>
+				</section>
+
+				<section data-markdown>
+					### MOTION
+					##### Speed
+
+					* Speed is the distance an object moves in unit time
+					* A scalar quantity that is a measure of the rate of change of distance.
+
+				</section>
+				<section data-markdown>
+
+				</section>
 			</div>
 		</div>
 
@@ -26,15 +64,13 @@
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
 		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX]
 			});
+		</script>
+		<script>
+			document.getElementById("datetime").innerHTML = new Date().toLocaleDateString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"}) 
 		</script>
 	</body>
 </html>
