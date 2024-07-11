@@ -148,32 +148,6 @@
 
 
 				</section>
-				<section>
-					<h3>Extra: Vectors</h3>
-
-					<blockquote>A vector is a quantity having direction as well as magnitude</blockquote>
-
-					<p>The most accurate mental image for a vector is to imagine a directed arrow of a certain size.</p>
-					<img src="images/vectors.png"></img>
-				</section>
-				<section>
-					<h3>Extra: Vectors</h3>
-					<img src="images/kicking_a_ball.png"></img>
-					<p>Imagine kicking a ball in two different directions at the same time</p>
-				</section>
-				<section>
-					<h3>Extra: Vectors</h3>
-					<img src="images/kicking_a_ball_2.png"></img>
-					<p>The result will be a combined effect of the two forces. This is known as the <b>parallelogram law of vector addition</b>.</p>
-				</section>
-
-				<section>
-
-					<h3>Extra: Vectors</h3>
-					<img src="images/ball_throw_forces.gif"></img>
-					<p>Decomposing velocities using vector addition</p>
-				</section>
-
 
 				<section>
 					<h3>2.3 : Recording Motion</h3>
@@ -323,6 +297,18 @@
 					**Workbook 2.7, 1.d (Extension)**  
 					A pilot will lose consciouness if he is subjected to accelerations greater than 8 times the acceleration due to gravity (8g). By how much can the speed of his aeroplane increase in $2$ seconds if he is to remain conscious?
 				</section>
+				<!--
+				<section>
+					<h3>2.8 : Friction</h3>
+				</section>
+				<section data-markdown>
+					### 2.8 and 2.9 from workbook: homework
+				</section>
+				<section data-markdown>
+					### 2.10: Action and Reaction
+				</section>
+				Also include 
+				-->
 				<section data-markdown>
 					### 2.9 : Force, weight and gravity
 					* Any acceleration has to be caused by a **resultant** force.
@@ -354,13 +340,11 @@
 					**Important:** Wherever an object is, its mass remains constant.   
 					The weight of an object varies on how much gravitational force acts on it.
 
-					On the moon, you would be 16% of your weight on Earth.
-
 					> $$ \text{Weight} = \text{mass} \times \text{acceleration due to gravity}$$
 					> or
 					> $$W = mg$$
 
-					**Question:** What is the unit of Weight?
+					**Note:** The SI unit of weight is Newton ($N$) since it is a force
 
 				</section>
 				<section data-markdown>
@@ -381,7 +365,7 @@
 				<section>
 					<h3> 2.9 : Force, weight and gravity</h3>
 					<img height="500" src="images/earth_moon_field.png"></img>
-					<p>Gravitational Field of the Earth and Moon</p>
+					<p>(Accurate) Gravitational Field diagram of the Earth and Moon</p>
 				</section>
 				<section>
 					<h3>2.9 : Force, weight and gravity</h3>
@@ -393,15 +377,7 @@
 					<p>Important. Also refer Section 2.9 "Two meanings for $g$"</p>
 				</section>
 				<!--
-				<section>
-					<h3>2.8 : Friction</h3>
-				</section>
-				<section data-markdown>
-					### 2.8 and 2.9 from workbook: homework
-				</section>
-				<section data-markdown>
-					### 2.10: Action and Reaction
-				</section>
+					Section 2.10
 				-->
 				<section data-markdown>
 					### 2.11, 2.12: Momentum
@@ -439,7 +415,7 @@
 					> * Any acceleration causes the velocity to change
 					> * Any change in velocity causes momentum to change
 
-					* From the above three points, we can conclude that a resultant force causes a change in momentum over time.
+					* From the above three points, we can conclude that any resultant force causes a change in momentum over time.
 					* Newton used this observation to come up with the equation for his second law of motion.
 				</section>
 				<section data-markdown>
@@ -450,7 +426,24 @@
 					> or 
 					> $$ F = \frac{\Delta p}{\Delta t}$$
 
+				</section>
+				<section data-markdown>
+					### 2.11, 2.12: Momentum
+
 					**Question:** Why is $F = ma$ the same as $ F = \frac{\Delta p}{\Delta t}$?
+
+					**Answer:** 
+
+					$$ 
+					\begin{aligned}
+					F = ma \implies F & = m \times \frac{\Delta v}{\Delta t}  \\\\
+					\implies F & = m \times \frac{(\text{final velocity} - \text{initial velocity})}{\Delta t} \\\\
+					\implies F & = \frac{(m \times \text{final velocity} - m \times \text{initial velocity})}{\Delta t} \\\\
+					\implies F & = \frac{(\text{final momentum} - \text{initial momentum})}{\Delta t} \\\\
+					\implies F & = \frac{\text{change in momentum}}{\Delta t} = \frac{\Delta p}{\Delta t} \\\\
+					\end{aligned}
+					$$
+
 				</section>
 				<section data-markdown>
 					### 2.11, 2.12: Momentum
@@ -462,14 +455,14 @@
 					* The quantity $F \times \Delta t$ is known as **impulse**
 					* $F \times \Delta t = \Delta p\\;\\;$ is known as the **impulse-momentum** equation
 
-					**Question:** What is the SI unit of impulse?
+					**Note:** The SI unit of impulse is $N s$
 				</section>
 				<section data-markdown>
 					### 2.11, 2.12: Momentum
 					* $F \times \Delta t = \Delta p$ relates the change in momentum to the *amount of force needed over how much time*
-					* For example, consider we want to stop a moving car
-					* We can use the brakes to stop the car quickly. This is a large force applied over a short time
-					* We can also let the car slow down naturally by friction. This is a small force applied over a long time.
+					* For example, consider we want to stop a moving car. To get this effect: 
+						* We can use the brakes to stop the car quickly. This is a large force applied over a short time
+						* We can also let the car slow down naturally by friction. This is a small force applied over a long time.
 				</section>
 				<section data-markdown>
 					### 2.11, 2.12: Momentum
@@ -495,32 +488,76 @@
 					A force of $25N$ acts on a $30kg$ shopping trolley for $1.5s$. What is the velocity of the trolley if it was originally at rest?
 				</section>
 				<section data-markdown>
+					### 2.11, 2.12: Momentum
+					* In a closed system, the total momentum before an event is the same as the total momentum after the event
+
+					* More accurately,
+					> When two or more bodies act on one another, as in a collision, the total momentum of the bodies remains constant, provided no external forces act on them.
+
+					* This statement is known as the **law of conservation of momentum**
+
+				</section>
+				<section data-markdown>
+					### 2.11, 2.12: Momentum
+
+					**Question:** A truck weighing $4500kg$ and travelling at $12m/s$ collides with a car weighing $1200kg$ travelling in the opposite direction at $25m/s$. After the collision, they both stick together as one object.
+
+					Find their velocity after the collision.
+				</section>
+				<section data-markdown>
+					### 2.11, 2.12: Momentum
+					**Question:** A gun weighing $2kg$ is fired. The bullet weighing $5g$ shoots out at $120m/s$. Find the recoil velocity of the gun.
+				</section>
+				<section data-markdown>
+					### 2.11, 2.12: Momentum
+					**Workbook 2.11, 1. a,b,c**  
+
+					A car of mass $1000kg$ travelling at $5m/s$ collides with a van of mass $1500kg$, originally at rest. The two vehicles stick together on impact. 
+					* What is the momentum of the van before the collision?
+					* What is the momentum of the car and the van after the collision?
+					* What is the velocity of the two vehicles after the collision?
+
+				</section>
+				<section data-markdown>
+					### 2.11, 2.12: Momentum
+					**Workbook 2.11, 2**  
+					A trolley of mass $10kg$ and a trolley of mass $5kg$ are travelling in opposite directions, both at a speed of $2m/s$. The $5kg$ trolley rebounds at $1m/s$. What is the speed and direction of the $10kg$ trolley?
+				</section>
+				<!--
+				<section data-markdown>
 					### 2.10: Action and Reaction
 					##### Newton's Third Law
+
 					* Newton's third law states that for every action there is an equal and opposite reaction. 
 					* The "action" and "reaction" refer to forces
 					* If Object A exerts a force on Object B, then Object B exerts an equal amount of force on Object A in the opposite direction. 
 					* Examples include pushing an object or stepping on the ground.
 				</section>
+				-->
 				<section>
-					<h3>2.11, 2.12: Momentum</h3>
-					<ul>
-						<li>  
+					<h3>2.13: More about Vectors</h3>
 
-					When two or more bodies act on one another, as in a collision, the total momentum of the bodies remains constant, provided no external forces act on them.
-						</li>
-						<li>
-							This statement is known as the <b>law of conservation of momentum</b>
-						</li>
-					</ul>
+					<blockquote>A vector is a quantity having direction as well as magnitude</blockquote>
+
+					<p>The most accurate mental image for a vector is to imagine a directed arrow of a certain size.</p>
+					<img src="images/vectors.png"></img>
+				</section>
 				<section>
-					<h3>2.11, 2.12: Momentum</h3>
-					<img src="images/momentum_explosions.png"></img>
+					<h3>2.13: Vectors</h3>
+					<img src="images/kicking_a_ball.png"></img>
+					<p>Imagine kicking a ball in two different directions at the same time</p>
+				</section>
+				<section>
+					<h3>2.13: Vectors</h3>
+					<img src="images/kicking_a_ball_2.png"></img>
+					<p>The result will be a combined effect of the two forces. This is known as the <b>parallelogram law of vector addition</b>.</p>
 				</section>
 
-
+				<section>
+					<h3>2.13: Vectors</h3>
+					<img src="images/ball_throw_forces.gif"></img>
+					<p>Decomposing velocities using vector addition</p>
 				</section>
-
 			</div>
 		</div>
 
