@@ -1,17 +1,14 @@
 .reveal p {
-	font-size: 0.9em;
-}
-
-.reveal blockquote {
-	font-size: 0.9em;
-
-	border: 2px solid black;
-	padding: 2%;
+	font-size: 38px;
 }
 
 .reveal li {
+	font-size: 38px;
+}
 
-	font-size: 0.9em;
+.reveal blockquote {
+	border: 2px solid black;
+	padding: 2%;
 }
 
 .reveal em {
