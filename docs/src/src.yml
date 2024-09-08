@@ -1,0 +1,6 @@
+map:
+  - pre.html
+    # - chapter_2
+    # - chapter_3
+  - chapter_4
+  - post.html
