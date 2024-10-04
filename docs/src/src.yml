@@ -1,6 +1,6 @@
 map:
   - pre.html
-  - chapter_2
-    # - chapter_3
     # - chapter_4
+    # - chapter_5
+  - paper_6
   - post.html
