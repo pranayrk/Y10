@@ -17,3 +17,12 @@
 .reveal em {
 	text-decoration: underline;
 }
+
+.reveal h6 {
+font-style: normal;
+font-size: 24px;
+font-weight: normal;
+text-transform: none;
+
+}
+
